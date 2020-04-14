@@ -7,17 +7,18 @@ body {
 header h1 {
     margin: 0;
     padding-top: 80px;
-    font-size: 3rem;
+    font-size: 3em;
     color: #fff;
 }
 
 @media screen and (min-width: 300px) {
     .main {
         margin: 0 10px 0 10px;
+        font-size: 2rem;
     }
 
     header {
-        height: 200px;
+        height: 15em;
         background-image: url('https://scontent.fsyd4-1.fna.fbcdn.net/v/t1.0-9/90145312_2658256344463489_5749882923444600832_o.jpg?_nc_cat=111&_nc_sid=8024bb&_nc_ohc=p02tN6ZhZbIAX9YWe5A&_nc_ht=scontent.fsyd4-1.fna&oh=c0354fc906008e03f1403ae1e476f3f8&oe=5EBAC9D7');
         background-size: cover;
         background-position: 0px -50px;
@@ -43,6 +44,7 @@ header h1 {
     .main {
         max-width: 910px;
         margin: auto;
+        font-size: 1rem;
     }
 
     header {
