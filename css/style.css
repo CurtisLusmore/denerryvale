@@ -11,12 +11,16 @@
 body { font-family: Arial, Helvetica, sans-serif; }
 
 header {
-    color: var(--color-white);
-    height: 220px;
-    padding-top: 80px;
-    background-image: url('https://scontent.fsyd4-1.fna.fbcdn.net/v/t1.0-9/90145312_2658256344463489_5749882923444600832_o.jpg?_nc_cat=111&_nc_sid=8024bb&_nc_ohc=p02tN6ZhZbIAX9YWe5A&_nc_ht=scontent.fsyd4-1.fna&oh=c0354fc906008e03f1403ae1e476f3f8&oe=5EBAC9D7');
+    height: 300px;
+    background-image: url('/img/banner.png');
     background-size: cover;
-    background-position: 0px -50px;
+    background-position-x: center;
+}
+
+header > h1 {
+    color: var(--color-white);
+    margin: 0 0.5em 0 0.5em;
+    padding-top: 100px;
 }
 
 nav > ul {
