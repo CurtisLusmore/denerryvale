@@ -40,7 +40,7 @@ article h4 { font-size: 1.3em; margin-bottom: 0; }
 
 article table { border-spacing: 0; }
 article table td { padding: 0.5em; }
-article table tr:nth-child(even) { background-color: var(--color-grey-light); }
+article table.zebra tr:nth-child(even) { background-color: var(--color-grey-light); }
 article table.gendered td.s { background-color: var(--color-blue-pale); }
 article table.gendered td.d { background-color: var(--color-red-pale); }
 
