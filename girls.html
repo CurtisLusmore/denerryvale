@@ -6,6 +6,7 @@
     <title>DenerryVale | Girls</title>
     <link rel="stylesheet" href="/css/layout.css">
     <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/main.js" defer></script>
   </head>
   <body>
     <header>
@@ -13,20 +14,20 @@
     </header>
     <div class="wrapper">
       <aside>
-      <nav>
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/about">About</a></li>
-          <li><a href="/boys">Boys</a></li>
-          <li><a href="/girls">Girls</a></li>
-          <li><a href="/previous-litters">Previous Litters</a></li>
-          <li><a href="/current-litter">Current Litter</a></li>
+        <nav>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/boys">Boys</a></li>
+            <li><a href="/girls">Girls</a></li>
+            <li><a href="/previous-litters">Previous Litters</a></li>
+            <li><a href="/current-litter">Current Litter</a></li>
             <li><a href="/on-the-farm">On the Farm</a></li>
             <li><a href="/on-the-road">On the Road</a></li>
-          <li><a href="/breed-standard">Breed Standard</a></li>
-          <li><a href="/links">Links</a></li>
-        </ul>
-      </nav>
+            <li><a href="/breed-standard">Breed Standard</a></li>
+            <li><a href="/links">Links</a></li>
+          </ul>
+        </nav>
       </aside>
       <article>
         <h1>Girls</h1>
@@ -42,7 +43,14 @@
             She is certainly a farm girl at heart and is happiest when at home
             keeping a close eye on the cattle.
           </p>
-          <img class="hero" src="/img/dayzee.jpg">
+          <div class="gallery">
+            <div class="gallery-item"><img class="expand" src="/img/dayzee/2017-09-10.jpg"></div
+            ><div class="gallery-item"><img class="expand" src="/img/dayzee/2018-06-11.jpg"></div
+            ><div class="gallery-item"><img class="expand" src="/img/dayzee/2019-05-19.jpg"></div
+            ><div class="gallery-item"><img class="expand" src="/img/dayzee/2019-09-11.jpg"></div
+            ><div class="gallery-item"><img class="expand" src="/img/dayzee/2019-10-06.jpg"></div
+            >
+          </div>
           <h3>Achievements</h3>
           <h4>Obedience Titles</h4>
           <table class="zebra">
@@ -276,6 +284,9 @@
       <footer>
         <p>DenerryVale &copy; 2020</p>
       </footer>
+    </div>
+    <div id="img-modal">
+      <img id="img-modal-img">
     </div>
   </body>
 </html>

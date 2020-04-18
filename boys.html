@@ -6,6 +6,7 @@
     <title>DenerryVale | Boys</title>
     <link rel="stylesheet" href="/css/layout.css">
     <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/main.js" defer></script>
   </head>
   <body>
     <header>
@@ -13,20 +14,20 @@
     </header>
     <div class="wrapper">
       <aside>
-      <nav>
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/about">About</a></li>
-          <li><a href="/boys">Boys</a></li>
-          <li><a href="/girls">Girls</a></li>
-          <li><a href="/previous-litters">Previous Litters</a></li>
-          <li><a href="/current-litter">Current Litter</a></li>
+        <nav>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/boys">Boys</a></li>
+            <li><a href="/girls">Girls</a></li>
+            <li><a href="/previous-litters">Previous Litters</a></li>
+            <li><a href="/current-litter">Current Litter</a></li>
             <li><a href="/on-the-farm">On the Farm</a></li>
             <li><a href="/on-the-road">On the Road</a></li>
-          <li><a href="/breed-standard">Breed Standard</a></li>
-          <li><a href="/links">Links</a></li>
-        </ul>
-      </nav>
+            <li><a href="/breed-standard">Breed Standard</a></li>
+            <li><a href="/links">Links</a></li>
+          </ul>
+        </nav>
       </aside>
       <article>
         <h1>Boys</h1>
@@ -42,7 +43,17 @@
             Always happy, whether he is on the farm, or travelling with us. We
             are so grateful to Roslyn & Kevin for entrusting him to us.
           </p>
-          <img class="hero" src="/img/jack.jpg">
+          <div class="gallery">
+            <div class="gallery-item"><img class="expand" src="/img/jack/2016-11-04.jpg"></div
+            ><div class="gallery-item"><img class="expand" src="/img/jack/2018-11-26.jpg"></div
+            ><div class="gallery-item"><img class="expand" src="/img/jack/2019-02-12.jpg"></div
+            ><div class="gallery-item"><img class="expand" src="/img/jack/2019-04-15.jpg"></div
+            ><div class="gallery-item"><img class="expand" src="/img/jack/2019-08-17.jpg"></div
+            ><div class="gallery-item"><img class="expand" src="/img/jack/2020-03-10.jpg"></div
+            ><div class="gallery-item"><img class="expand" src="/img/jack/2020-03-15.jpg"></div
+            ><div class="gallery-item"><img class="expand" src="/img/jack/2019-03-26.jpg"></div
+            >
+          </div>
           <h3>Achievements</h3>
           <h4>Obedience Titles</h4>
           <table class="zebra">
@@ -259,6 +270,9 @@
       <footer>
         <p>DenerryVale &copy; 2020</p>
       </footer>
+    </div>
+    <div id="img-modal">
+      <img id="img-modal-img">
     </div>
   </body>
 </html>
