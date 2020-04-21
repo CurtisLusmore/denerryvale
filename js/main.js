@@ -13,3 +13,14 @@ document
 imgModal.onclick = function() {
     imgModal.style.display = "none";
 }
+
+const navExpand = function (event) {
+    event.preventDefault();
+    var classes = event
+        .target
+        .parentElement
+        .classList;
+    classes.toggle('nav-collapsed');
+    classes.toggle('nav-expanded');
+    return false;
+};
