@@ -1,5 +1,6 @@
 const imgModal = document.getElementById('img-modal');
 const imgModalImg = document.getElementById('img-modal-img');
+const imgModalCap = document.getElementById('img-modal-cap');
 
 document
     .querySelectorAll('img.expand')
@@ -7,6 +8,7 @@ document
         img.onclick = function () {
             imgModal.style.display = 'block';
             imgModalImg.src = this.src;
+            imgModalCap.innerText = img.getAttribute('aria-title');
         }
     });
 

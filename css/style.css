@@ -116,3 +116,11 @@ img.expand:hover {
     max-width: 80vw;
     max-height: 80vh;
 }
+
+#img-modal-cap {
+    display: block;
+    margin: auto;
+    padding-top: 1em;
+    text-align: center;
+    color: #ffffff;
+}
