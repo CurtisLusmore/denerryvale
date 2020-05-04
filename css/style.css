@@ -68,6 +68,8 @@ article table.zebra tr:nth-child(even) { background-color: var(--color-grey-ligh
 article table.gendered td.s { background-color: var(--color-blue-pale); }
 article table.gendered td.d { background-color: var(--color-red-pale); }
 
+article li { margin: 1em 0; }
+
 .gallery-item {
     width: 25%;
     padding-top: 25%;
