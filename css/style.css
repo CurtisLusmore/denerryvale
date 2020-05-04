@@ -8,7 +8,7 @@
     --color-red-pale: #fadadd;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Pangolin');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans');
 
 body { font-family: 'Open Sans', sans-serif; }
@@ -21,7 +21,7 @@ header {
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Tempus Sans ITC', 'Pangolin', sans-serif;
+    font-family: 'Pangolin', sans-serif;
 }
 
 header > h1 {
