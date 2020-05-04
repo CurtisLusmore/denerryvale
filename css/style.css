@@ -93,6 +93,15 @@ img.hero {
     margin: auto;
 }
 
+iframe {
+    width: 800px;
+    max-width: 80%;
+    height: 600px;
+    border: none;
+    display: block;
+    margin: auto;
+}
+
 img.expand:hover {
     cursor: pointer;
     opacity: 0.8;
