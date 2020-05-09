@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://denerryvale.com/sitemap.txt
