@@ -3,7 +3,7 @@ body { margin: 0; padding: 0; }
 header { grid-area: header; }
 nav { grid-area: nav; }
 article { grid-area: article; }
-footer { grid-area: footer; margin-top: 100px; }
+footer { grid-area: footer; margin-top: 50px; }
 
 .wrapper {
     margin: 1em;
